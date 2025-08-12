@@ -115,7 +115,7 @@ share = df.groupby("supplier_country", as_index=False)["annual_cost_scenario"].s
 fig2 = px.pie(share, names="supplier_country", values="annual_cost_scenario", title="Spend by Supplier Country (Scenario)")
 st.plotly_chart(fig2, use_container_width=True)
 
-st.subheader("Recommendations — Switch Candidates (Top 15 by Annual Savings)")
+st.subheader("Recommendations — Switch Sources (Top 15 by Annual Savings)")
 recs = df[df["annual_savings_if_switch"] > 0].copy().sort_values("annual_savings_if_switch", ascending=False).head(15)
 st.dataframe(
     recs[["sku","product_name","supplier_country","alt_country","savings_per_unit_if_switch","annual_savings_if_switch","baseline_landed_cost","scenario_landed_cost","alt_landed_cost","annual_units"]]
