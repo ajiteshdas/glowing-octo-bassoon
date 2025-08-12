@@ -4,9 +4,9 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 
-st.set_page_config(page_title="Tariff & Supply Chain Scenario Copilot Demo - Ajitesh", page_icon="🚢", layout="wide")
+st.set_page_config(page_title="Supply Chain Scenario Copilot Demo - Ajitesh", page_icon="🚢", layout="wide")
 
-st.title("🚢 Tariff & Supply Chain Scenario Copilot by Ajitesh Das")
+st.title("🚢 Supply Chain Scenario Copilot by Ajitesh Das")
 st.write("Upload a SKU list, adjust tariff scenarios and FX, and see landed cost impact and savings opportunities.")
 st.link_button("📬 Contact me", "mailto:ajiteshdas@gmail.com")
 
