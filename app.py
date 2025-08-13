@@ -140,4 +140,4 @@ with st.expander("How it works"):
 """)
 
 st.sidebar.markdown("---")
-st.sidebar.caption("👋 Built for quick demos. Try editing China/Vietnam/Mexico rates and FX to see portfolio‑ready insights.")
+st.sidebar.caption("👋 Built for quick demos. Try editing country rates and FX to see portfolio‑ready insights.")
